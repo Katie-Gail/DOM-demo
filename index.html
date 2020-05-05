@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>DOM Demo</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-content">
+      <h1 class="heading">Contacts</h1>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="">Link1</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Link2</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Link3</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <ul class="container main-content"></ul>
+    <div class="form-container">
+    <form class="add-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" name="phone">
+      <label for="relation">Relation:</label>
+      <input type="text" id="relation" name="relation">
+      <button>Submit</button>
+    </form>
+  </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-content">
+      <p class="contact-counter">Contacts: 0</p>
+      <button class="plus-icon"><i class="fas fa-plus"></i></button>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/2edfe2ba7c.js" crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
